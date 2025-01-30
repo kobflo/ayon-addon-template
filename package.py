@@ -1,16 +1,16 @@
 # Required: lower case addon name e.g. 'deadline', otherwise addon
 #   will be invalid
-name = ""
+name = "ayon_addon"
 
 # Optional: Addon title shown in UI, 'name' is used by default e.g. 'Deadline'
-title = ""
+title = "Ayon Addon"
 
 # Required: Valid semantic version (https://semver.org/)
 version = "0.0.0"
 
 # Name of client code directory imported in AYON launcher
 # - do not specify if there is no client code
-client_dir = None
+client_dir = "ayon_addon"
 
 # Version compatibility with AYON server
 # ayon_server_version = ">=1.0.7"
